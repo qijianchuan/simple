@@ -1,47 +1,3 @@
-title: SIMPLE                        # title of the site
-description: A Jekyll Theme          # description of the site
-url: https://professordeng.com       # domain
-baseurl: /simple                     # root directory
-
-# Email address
-email: professordeng@qq.com
-
-# Path of site resources
-img: /simple/assets/img 
-css: /simple/assets/css  
-js:  /simple/assets/js  
-cdn: https://cdn.jsdelivr.net/gh/professordeng/simple@gh-pages/assets/img
-
-## Docs: https://pages.github.com/versions/
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-  - jekyll-paginate
-
-# paginate setting
-paginate: 5
-
-# Comment system
-## Docs: https://github.com/gitalk/gitalk/blob/master/readme.md
-gitalk:
-  enable: true 
-  clientID: 6e42adfac0bf61e180f6
-  clientSecret: d1ed44fc8888bbb2bcafb6bbc819ac9dddca5b71
-  repo: simple
-  owner: professordeng
-  admin: professordeng
-  id: simple      # The default is location.pathname
-  title: simple   # Issue title
-  body: simple
-  
-
-# Google Analytics
-## Docs: https://analytics.google.com/analytics/web/
-google-analytics: UA-165708741-1
 title: 博客收藏夹                          # title of the site
 description: 收集分享专业技术文章           # description of the site
 url: https://blog.nomar.cn                # domain
@@ -86,13 +42,6 @@ gitalk:
 # QQ MTA Analytics
 qq-appid: 500732275
 
-# default layout of the articles in _post
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
 # default layout of the articles in _post
 defaults:
   - scope:
