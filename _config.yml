@@ -42,7 +42,57 @@ gitalk:
 # Google Analytics
 ## Docs: https://analytics.google.com/analytics/web/
 google-analytics: UA-165708741-1
+title: 博客收藏夹                          # title of the site
+description: 收集分享专业技术文章           # description of the site
+url: https://blog.nomar.cn                # domain
+baseurl: /                                # root directory
 
+# Email address
+email: 406429544@qq.com
+
+# Path of site resources
+img: /assets/img 
+css: /assets/css  
+js:  /assets/js  
+cdn: https://cdn.jsdelivr.net/gh/professordeng/simple@gh-pages/assets/img
+
+## Docs: https://pages.github.com/versions/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-paginate
+
+# paginate setting
+paginate: 5
+
+# Comment system
+## Docs: https://github.com/gitalk/gitalk/blob/master/readme.md
+gitalk:
+  enable: true 
+  clientID: fc177129a1746db4b52b
+  clientSecret: 6a56d84f2c33fa790f2f0cd9bc39bfd928028c52
+  repo: gitalk
+  owner: qijianchuan
+  admin: qijianchuan
+  id: location.pathname   # The default is location.pathname
+  title: simple   # Issue title
+  body: simple
+  
+
+# QQ MTA Analytics
+qq-appid: 500732275
+
+# default layout of the articles in _post
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 # default layout of the articles in _post
 defaults:
   - scope:
