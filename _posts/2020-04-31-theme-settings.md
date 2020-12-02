@@ -1,7 +1,7 @@
 ---
 title: 如何使用 simple 主题
 ---
- <% gist 6830470f6a186cc7750343bb1bee8665 %>
+<script src="https://gist.github.com/qijianchuan/6830470f6a186cc7750343bb1bee8665.js"></script>
 
 Simple 是针对移动端开发的响应式 Jekyll 主题，兼具云笔记和博客功能，特性包括但不限于
 
