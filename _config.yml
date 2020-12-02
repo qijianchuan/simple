@@ -21,6 +21,7 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
   - jekyll-paginate
+  - jekyll-gist
 
 # paginate setting
 paginate: 5
